@@ -12,10 +12,6 @@ stores:
   - id: "GCB-2023_dataprod_LDEO-HPD_1959-2022-updated-flipped-lon"
     name: "flux"
     url: "s3://carbonplan-data-viewer/demo/leap-data-stories/GCB-2023_dataprod_LDEO-HPD_1959-2022-updated-flipped-lon.zarr/"
-    "ncviewjs:rechunking":
-      -
   - id: annual-sfco2
     name: "Annual fgco2"
     url: "s3://carbonplan-data-viewer/demo/leap-data-stories/annual-sfco2.zarr/"
-    "ncviewjs:rechunking":
-      -
