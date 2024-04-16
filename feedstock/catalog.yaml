@@ -5,6 +5,9 @@ tags:
   - carbon
   - zarr
   - "machine learning"
+links:
+  - label: Lamont-Doherty Earth Observatory Hybrid Physics Data pCO2 Product
+    url: https://oceancarbon.ldeo.columbia.edu/content/ldeo-hpd
 stores:
   - id: "GCB-2023_dataprod_LDEO-HPD_1959-2022-updated-flipped-lon"
     name: "flux"
