@@ -9,7 +9,7 @@ links:
   - label: Lamont-Doherty Earth Observatory Hybrid Physics Data pCO2 Product
     url: https://oceancarbon.ldeo.columbia.edu/content/ldeo-hpd
   - label: The ocean carbon sink data story
-    url: https://stories.leap.carbonplan.org/ocean-sink
+    url: https://stories.leap.columbia.edu/ocean-sink
 stores:
   - id: "GCB-2023_dataprod_LDEO-HPD_1959-2022-updated-flipped-lon"
     name: "flux"
