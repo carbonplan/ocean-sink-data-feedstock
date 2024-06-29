@@ -25,3 +25,17 @@ jobs:
         uses: leap-stc/data-catalog-actions/leap-catalog@main
         with:
           single-feedstock: "./feedstock/catalog.yaml"
+
+      - name: Dispatch event
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.repos.createDispatchEvent({
+              owner: 'leap-stc',
+              repo: 'data-management',
+              event_type: 'catalog-update',
+              client_payload: {
+                origin_repo: `${context.repo.owner}/${context.repo.repo}`
+              }
+            })
