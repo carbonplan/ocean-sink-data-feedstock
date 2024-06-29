@@ -34,7 +34,7 @@ jobs:
             await github.repos.createDispatchEvent({
               owner: 'leap-stc',
               repo: 'data-management',
-              event_type: 'catalog-update',
+              event_type: 'update-catalog',
               client_payload: {
                 origin_repo: `${context.repo.owner}/${context.repo.repo}`
               }
